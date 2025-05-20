@@ -61,7 +61,7 @@ class ROCMultiplePlugin:
         colors_array = ['r', 'c', 'm', 'y', 'black', 'orange', 'tan']
         scores_other.to_csv("trevor.csv")
         for i in range(len(other_labels)):
-          plot_ROC(scores_other, other_labels[i], 'label', other_labels[i], ax, colors[i+2], pos_label=pos_label[i])
+          plot_ROC(scores_other, other_labels[i], 'Label', other_labels[i], ax, colors[i+2], pos_label=pos_label[i])
 
 
 

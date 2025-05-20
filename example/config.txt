@@ -1,0 +1,2 @@
+Prefix plugins/ROCMultiple/example/
+Plugin ROCMultiple inputfile parameters.txt outputfile ROC.png
